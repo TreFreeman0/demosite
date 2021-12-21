@@ -1,90 +1,100 @@
+*{
+    color:black;
+}
 body{
-    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    background-color: #f1f1f1;
     padding: 0px;
-    background-color: #F1F1F1;
+    margin: 0px;
+    line-height: 25px;
+    outline: 2px solid red;
 }
 .header{
-   text-align: center;
-    padding: 20px;
-    outline: 1px black solid;
-}
-/*--- Styling for nav BEGIN ---*/
-.topnav{
-    background-color: black;
-    overflow: hidden;
-}
-.topnav a {
-    display: block;
-    color: #f2f2f2;
-    padding: 14px 16px;
-    text-decoration: none;
     text-align: center;
-    float: left;
+    outline: 1px black solid;
+    padding: 20px;
 }
-.topnav a:hover{
-    background-color: #ddd;
-    color: black;
+.header h1 {
+    font-size: 40px;
 }
-/* ---Stlying for nav END ---*/
-
-/*--- styling for the mainbody of index.html BEGIN --- */
-.left-column{
-    float: left;
+.main-nav{
+    background-color: grey;
+    padding: 5px;
+    overflow: hidden;
+    outline: 1px solid black;
+}
+.main-nav a {
+    text-decoration: none;
+    float:left;
+    margin: 10px;
+    padding:10px;
+    color: white;
+    outline: 1px solid black;
+}
+.main-nav a:hover{
+    background-color: black;
+}
+.left-content{
     width: 75%;
-    outline: 1px solid #333;
+    float: left;
+    outline: 1px solid black;
+    
 }
-.right-column{
+.right-content{
     float: left;
     width: 25%;
-    padding-left: 20px;
 }
-.box{
-   background-color: white;
-   margin-top: 20px;
-   padding: 20px;
-   outline:1px solid #333 ;
+img{
+    width: 100%;
+    border-radius: 2%;
 }
-
-.row:after{
-    content:"";
-    display: table;
-    clear: both;
-}
-@media screen and (max-width: 600px) {
-    .column,.column-mid,.column-right{
-        width: 100%;
-    }
-}
-/*--- styling for the mainbody of index.html END --- */
-
-/*--- Styling for Footer BEGIN -- */
-.foot{
-    background-color: #ddd;
-    padding: 10px;
-    text-align: center;
-    outline: 5px solid black;
-}
-/*--- Styling for Footer END -- */
-
-.box img{
-    width: 250px;
-    float: left;
-    height: auto;
-}
-h3{
+.content-imgOne{
+   width: 30.00%;
    float: left;
-   padding: 0px 15px 0px 15px;
-}
-h1{
-    padding: 0px 15px 0px 15px;
-}
-h2{
-    padding: 0px 15px 0px 15px;
+   margin: 10px;
 }
 
-
-div p {
-    padding:0px 15px 0px 15px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+.content{
+    outline: 1px solid black;
+    padding: 10px;
+    margin:20px;
+    float: left;
+    border-radius: 5px;
 }
+.content-links{
+    background-color: white;
+    outline: 1px solid black;
+    float: left;
+    width: 283px;
+    height: 537px;
+    margin-left: 20px;
+    border-radius: 5px;
+    /*padding: 10px;*/
+    
+}
+.content-links ul {
+    list-style-type:circle;
+    
+}
+.content-links h1{
+    color: black;
+    padding-left: 15px;
+}
+.content-links a{
+    text-decoration: none;
+    color:black;
+}
+
+.inner-content{
+    outline: 1px solid black;
+    float: left;
+    width:50%;
+    height:200px;
+    margin-bottom: 20px;
+}
+.more-info-header{
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: right;
+}
+
