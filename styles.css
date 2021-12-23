@@ -7,7 +7,6 @@ body{
     padding: 0px;
     margin: 0px;
     line-height: 25px;
-    outline: 2px solid red;
 }
 .header{
     text-align: center;
@@ -34,16 +33,18 @@ body{
 .main-nav a:hover{
     background-color: black;
 }
+.main-content{
+    width: 100%;
+    outline: 2px red solid;
+    float:left;
+}
 .left-content{
-    width: 75%;
+    width:100%;
     float: left;
     outline: 1px solid black;
-    
+    margin-bottom: 15px;
 }
-.right-content{
-    float: left;
-    width: 25%;
-}
+
 img{
     width: 100%;
     border-radius: 2%;
@@ -55,36 +56,13 @@ img{
 }
 
 .content{
-    outline: 1px solid black;
-    padding: 10px;
-    margin:20px;
+    outline: 1px solid red;
+   /* padding: 10px;
+    /*margin:20px*/;
     float: left;
     border-radius: 5px;
+    width: 33.33%;
 }
-.content-links{
-    background-color: white;
-    outline: 1px solid black;
-    float: left;
-    width: 283px;
-    height: 537px;
-    margin-left: 20px;
-    border-radius: 5px;
-    /*padding: 10px;*/
-    
-}
-.content-links ul {
-    list-style-type:circle;
-    
-}
-.content-links h1{
-    color: black;
-    padding-left: 15px;
-}
-.content-links a{
-    text-decoration: none;
-    color:black;
-}
-
 .inner-content{
     outline: 1px solid black;
     float: left;
@@ -97,4 +75,16 @@ img{
     margin-right: 20px;
     text-align: right;
 }
+.foot{
+    text-align: center;
+    margin-top: 40px;
+    outline: solid 1px black;
+    padding: 20px;
+    clear: both;
+    
+}
+/*About us info*/
+
+
+
 
